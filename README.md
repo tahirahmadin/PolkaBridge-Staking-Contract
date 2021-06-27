@@ -1,4 +1,4 @@
-# polkabridge-staking
+# PolkaBridge Staking Contract
 
 Staking contract for PolkaBridge.
 
