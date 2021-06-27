@@ -1,0 +1,26 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test --network test",
+    "coverage": "solidity-coverage"
+  },
+  "author": "Aamir Alam <aamiralam1991@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "8.0.2",
+    "openzeppelin-solidity": "2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-bignumber": "^3.0.0",
+    "ganache-cli": "6.3.0",
+    "solidity-coverage": "0.6.0-beta.3",
+    "truffle": "5.0.0"
+  }
+}
